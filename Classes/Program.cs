@@ -11,6 +11,16 @@ namespace Classes
         static void Main(string[] args)
         {
 
+            //Class is the blueprint for a house, e.g. 
+            //The House itself is constructed from that blueprint
+
+            //INSTANCE of a class is your OBJECT
+
+            Animal newAnimal = new Animal();
+            newAnimal.Move();
+            newAnimal.MakeNoise();
         }
     }
+
+
 }

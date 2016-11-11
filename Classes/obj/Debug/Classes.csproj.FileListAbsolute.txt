@@ -1,2 +1,7 @@
 c:\users\gerry o'brien\documents\visual studio 2013\Projects\Classes\Classes\bin\Debug\Classes.exe.config
 C:\Users\bkilkenney\OneDrive\c#_up_n_running\Ex_Files_UaR_CSharp\Exercise Files\Classes\Classes\bin\Debug\Classes.exe.config
+C:\Users\bkilkenney\OneDrive\c#_up_n_running\Ex_Files_UaR_CSharp\Exercise Files\Classes\Classes\bin\Debug\Classes.exe
+C:\Users\bkilkenney\OneDrive\c#_up_n_running\Ex_Files_UaR_CSharp\Exercise Files\Classes\Classes\bin\Debug\Classes.pdb
+C:\Users\bkilkenney\OneDrive\c#_up_n_running\Ex_Files_UaR_CSharp\Exercise Files\Classes\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\bkilkenney\OneDrive\c#_up_n_running\Ex_Files_UaR_CSharp\Exercise Files\Classes\Classes\obj\Debug\Classes.exe
+C:\Users\bkilkenney\OneDrive\c#_up_n_running\Ex_Files_UaR_CSharp\Exercise Files\Classes\Classes\obj\Debug\Classes.pdb
