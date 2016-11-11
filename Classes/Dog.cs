@@ -6,7 +6,32 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    class Dog
+    class Dog : Animal
     {
+
+    //This class can have it's own fields and properites, as well as any that it inherits
+
+      //Fields
+        private string name;
+        private string owner;
+
+    //Properties
+        public string Name { get; set; }
+
+        public string Owner { get; set; }
+
+        public override void Move()
+        {
+            Console.WriteLine("Dog moved when the OVERRIDE method was called");
+        }
+
+
+
+
+
+
+
+
+
     }
 }

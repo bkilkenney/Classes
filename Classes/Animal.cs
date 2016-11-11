@@ -8,7 +8,7 @@ namespace Classes
 {
     class Animal
     {
-     //fields
+        //fields
 
         private string type;
         private string color;
@@ -18,11 +18,11 @@ namespace Classes
         private int numOfLegs;
 
 
-     //Properties
+        //Properties
         public string Type { get; set; }
         public string Color
         {
-            get { return this.color; }       
+            get { return this.color; }
             set { this.color = value; }
         }
         public string Weight { get; set; }
@@ -33,7 +33,7 @@ namespace Classes
             get { return this.age; }            //get is the return 
             set
             {
-                if(value < 0)
+                if (value < 0)
                 {
                     Console.WriteLine("Age can't be less than 0");
                 }
@@ -41,7 +41,7 @@ namespace Classes
                 {
                     this.age = value;               //set is where the logic takes place. e.g. you don't want a negative # for age
                 }
-            }           
+            }
         }
 
         public int NumOfLegs { get; set; }
@@ -50,15 +50,15 @@ namespace Classes
 
 
      //Methods
-        public void Move()
+        public virtual void Move()
         {
-            Console.WriteLine("Animals be movin'");
+            Console.WriteLine("Animal moved when the VIRTUAL method was called");
         }
 
 
-        public void MakeNoise()
+        public  virtual void MakeNoise()
         {
-            Console.WriteLine("Looks like I won't be sleeping tonight with all noise my newAnimal is making!");
+            Console.WriteLine("Animal made noise when the VIRTUAL method was called.");
         }
     }
 }
