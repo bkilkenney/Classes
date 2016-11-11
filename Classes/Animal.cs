@@ -8,6 +8,7 @@ namespace Classes
 {
     class Animal
     {
+     //fields
 
         private string type;
         private string color;
@@ -16,6 +17,39 @@ namespace Classes
         private int age;
         private int numOfLegs;
 
+
+     //Properties
+        public string Type { get; set; }
+        public string Color
+        {
+            get { return this.color; }       
+            set { this.color = value; }
+        }
+        public string Weight { get; set; }
+        public string Height { get; set; }
+
+        public int Age
+        {
+            get { return this.age; }            //get is the return 
+            set
+            {
+                if(value < 0)
+                {
+                    Console.WriteLine("Age can't be less than 0");
+                }
+                else
+                {
+                    this.age = value;               //set is where the logic takes place. e.g. you don't want a negative # for age
+                }
+            }           
+        }
+
+        public int NumOfLegs { get; set; }
+
+
+
+
+     //Methods
         public void Move()
         {
             Console.WriteLine("Animals be movin'");
